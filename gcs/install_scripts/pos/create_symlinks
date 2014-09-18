@@ -1,5 +1,5 @@
 ARCH="x86_64"
-[ a"$(uname -i)" == a"i686" ] && ARCH="i386"
+[ "a$(uname -i)" = "ai686" ] && ARCH="i386"
 ln -fs /usr/lib/$ARCH-linux-gnu/libnss3.so /usr/lib/libnss3.so
 ln -fs /usr/lib/$ARCH-linux-gnu/libnss3.so.1d /usr/lib/libnss3.so.1d
 ln -fs /usr/lib/$ARCH-linux-gnu/libnss_compat.so /usr/lib/libnss_compat.so
