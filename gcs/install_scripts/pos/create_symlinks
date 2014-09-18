@@ -1,0 +1,13 @@
+ARCH="x86_64"
+[ a"$(uname -i)" == a"i686" ] && ARCH="i386"
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnss3.so /usr/lib/libnss3.so
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnss3.so.1d /usr/lib/libnss3.so.1d
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnss_compat.so /usr/lib/libnss_compat.so
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnss_dns.so /usr/lib/libnss_dns.so
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnss_files.so /usr/lib/libnss_files.so
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnss_hesiod.so /usr/lib/libnss_hesiod.so
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnss_nisplus.so /usr/lib/libnss_nisplus.so
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnss_nis.so /usr/lib/libnss_nis.so
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnssutil3.so /usr/lib/libnssutil3.so
+ln -s /usr/lib/$(ARCH)-linux-gnu/libnssutil3.so.1d /usr/lib/libnssutil3.so.1d
+ln -s /usr/lib/$(ARCH)-linux-gnu/nss /usr/lib/nss
